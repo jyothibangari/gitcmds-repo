@@ -8,4 +8,17 @@ GIT COMMANDS
   cmd : git config --global user.email "your_email_address@example.com"
 4.To check the Configuration
   cmd :git config --global --list  
-  
+5. Git Clone - to clone remote repo to local repo for first time 
+  cmd: git clone https://github.com/jyothibangari/gitcmds-repo /d/mybox/gitcmds-repo
+
+6. Git Pull (combination of fetch & merge) cmd used to pull directories/files into local repository
+  cmd: git pull /d/mybox/gitcmds-repo
+7. To create new branch & make active
+ cmd: git checkout -b branch1
+8. Make changes in local repositoryand run git add
+  cmd: git add gitcmd-repo.txt (to add specific file updated)
+  cmd: git add . (to add all files updated)
+9. Git Commit - to commit/save the changes to local repo
+  cmd: git commit -m "description of changes"
+10. Git Push - to push the changes from local repo to remote repo  
+  cmd: git push origin branch1
