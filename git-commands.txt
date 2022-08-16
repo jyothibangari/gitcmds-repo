@@ -1,0 +1,11 @@
+GIT COMMANDS
+
+1. To verify if git installed & check git version
+  cmd : git --version
+2. TO Config git by adding user name & E-mail address
+  cmd : git config --global user.name "your_username"       
+3. 
+  cmd : git config --global user.email "your_email_address@example.com"
+4.To check the Configuration
+  cmd :git config --global --list  
+  
